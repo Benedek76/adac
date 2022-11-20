@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/jquery.flipster.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.less">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+        function Show_Div(Div_id, element) {
+            $("input[name='radio1']").not(element).parent().next('div').hide(250);
+            if (!$(Div_id).is(':visible')) {
+                $(Div_id).prev().children().prop('checked', true);
+                $(Div_id).show(250);
+            } else {
+                $(Div_id).prev().children().prop('checked', false);
+                $(Div_id).hide(250);
+            }
+        }
+    </script>
+
+    <style>
+        @media (min-width: 992px) {}
+    </style>
+</head>
+
+<body>
+    <script>
+        function show1() {
+            document.getElementById('div1').style.display = 'none';
+        }
+
+        function show2() {
+            document.getElementById('div1').style.display = 'block';
+        }
+
+        function show3() {
+            document.getElementById('div2').style.display = 'block';
+        }
+
+        function show4() {
+            document.getElementById('div2').style.display = 'none';
+        }
+
+        function show5() {
+            document.getElementById('div3').style.display = 'block';
+        }
+
+        function show6() {
+            document.getElementById('div11').style.display = 'block';
+        }
+
+        function show7() {
+            document.getElementById('div12').style.display = 'block';
+        }
+
+        function myFunction() {
+            var change = document.getElementById("toggle");
+            if (change.innerHTML == "+") {
+                change.innerHTML = "-";
+            }
+            else {
+                change.innerHTML = "+";
+            }
+        }
+
+        function myFunction2() {
+            var change = document.getElementById("toggle-2");
+            if (change.innerHTML == "-") {
+                change.innerHTML = "+";
+            }
+            else {
+                change.innerHTML = "-";
+            }
+        }
+
+        function myFunction3() {
+            var change = document.getElementById("toggle-3");
+            if (change.innerHTML == "+") {
+                change.innerHTML = "-";
+            }
+            else {
+                change.innerHTML = "+";
+            }
+        }
+
+        function myFunction4() {
+            var change = document.getElementById("toggle-4");
+            if (change.innerHTML == "+") {
+                change.innerHTML = "-";
+            }
+            else {
+                change.innerHTML = "+";
+            }
+        }
+
+        function myFunction5() {
+            var change = document.getElementById("toggle-4");
+            if (change.innerHTML == "+") {
+                change.innerHTML = "-";
+            }
+            else {
+                change.innerHTML = "+";
+            }
+        }
+
+        function myFunction6() {
+            var change = document.getElementById("toggle-5");
+            if (change.innerHTML == "+") {
+                change.innerHTML = "-";
+            }
+            else {
+                change.innerHTML = "+";
+            }
+        }
+
+        function myFunction7() {
+            var change = document.getElementById("toggle-4");
+            if (change.innerHTML == "+") {
+                change.innerHTML = "-";
+            }
+            else {
+                change.innerHTML = "+";
+            }
+        }
+
+        function alertMaxPersonn() {
+            alert("Figyelem! Összesen 3 fő gyermek számra köthető biztosítás!")
+        }              
+    </script>
+
+    <header class="header-1" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-sm-3 col-md-3">
+                    <div class="logo">
+                        <a href=""><img src="image/atrium-logo-2.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-sm-7 col-md-7 top">
+                    <nav class="navbar navbar-expand-lg mainmenu text-center">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cool">
+                            <span class="navbar-toggler-icon">
+                                <i class="fa fa-bars"></i>
+                            </span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="cool">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#first" class="nav-link smooth-scroll">Adac</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#second" class="nav-link smooth-scroll">Kapcsolat</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#third" class="nav-link smooth-scroll">Impresszum</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#details" class="nav-link smooth-scroll">Adatvédelem</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#fifth" class="nav-link smooth-scroll">Kapcsolat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="col-lg-2 col-sm-2 col-md-2 right-search">
+                    <div class="navigator text-right">
+                        <a href="" class="search">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="slideshow-container" id="first">
+        <br><br><br><br><br>
+        <div class="myslides">
+            <h2 style="font-size: 4.6vh; letter-spacing: 0vw;">
+                ADAC a német autóklub <br>
+            </h2>
+            <img src="image/adac-4.png" class="p_img" alt="">
+            <div class="p_detail">
+                <h3>Legyen biztonságban az utakon, gondoskodjon időben ADAC tagságáról
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                </h3><br>
+
+                <h4>Németországban több autóklub is van, de az Allgemeiner Deutscher Automobil-Club e.V. azaz az ADAC
+                    Európa legnagyobb és a világ második legnagyobb autós-motoros klubja taglétszáma alapján. Néhányan
+                    ismerhetnek alternatív autóklubokat, de legyen óvatos: vannak okok, amelyek miatt az ADAC továbbra
+                    is a piacvezető.
+                    Az új autók kipróbálásán túl vizsgálják többek között a komphajók és az alagutak biztonságosságát,
+                    mérvadó törésteszteket és gyermekülés-teszteket hajtanak végre. Még az aktuális téli- és
+                    nyárigumi-tesztek elvégzéséhez is megvan a hátterük. Továbbá rendszeresen tesztel vendéglőket és
+                    pihenőhelyeket az autópályák mellett.
+                    Ezek mind hasznos információkat jelentenek az autóipar és a gépjármű-tulajdonosok számára egyaránt.
+                    Klubtagok számos kedvezményt vehetnek igénybe, például autójuk átvizsgálásához és
+                    levizsgáztatásához, üzemanyag, autóalkatrész, olaj, navigációs rendszer vásárlásakor vagy
+                    szervizmunkák elvégeztetésében. Kedvezményt kapnak tucatnyi utazás, szállás, tanfolyamok, továbbá
+                    belépőjegyek árából is.
+                </h4>
+                <p>Válassza ki az ADAC tagságát</p>
+
+                <select>
+                    <option value="volvo">Tagsági csomagok</option>
+                    <option value="saab">Pannenhilfe</option>
+                    <option value="opel">Pannenhilfe Plus</option>
+                    <option value="audi">Pannenhilfe Premium</option>
+                </select>
+
+                <a href="">Add to Cart</a>
+                <span>19.- Eur-tól</span>
+            </div>
+        </div>
+
+        <div class="myslides">
+            <h2>
+                New <br> Adac <br>
+                <span>Adac adac</span>
+            </h2>
+            <img src="image/slider-2-.png" class="p_img" alt="">
+            <div class="p_detail">
+                <h3>Adac
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star"></i>
+                </h3>
+                <h4>LEGYEN ADAC TAG</h4>
+                <p>
+                    Szerződött partnerként, ADAC Pannenhilfe tagságát – akár online – elkészítjük Önnek, valamint
+                    további kérdéseire is szívesen válaszolunk. Ezen kívűl intézheti rajtunk keresztül adatmódosítását
+                    magyar nyelven, kiterjesztheti védelmét az ADAC Plus tagságra vagy akár az ADAC Premium tagságra.
+                    Fontos, hogy a tagság személyhez kötött és nem gépjárműhöz, tehát bármely autóval lerobbanhat, az
+                    ADAC akkor is segít.
+                    Tagság szempontjából több különböző típust kínál számos szolgáltatással, annak érdekében, hogy
+                    megválaszthassa az Önnek és az életének megfelelő védelmet. Az ADAC éjjel-nappal, az élet minden
+                    pillanatában elérhető Németországban, Európában, vagy a világ bármely országában.
+                    Műszaki meghibásodás, vagy baleset esetén, szervízbe, lakcímre szállítják a gépjárművet. Amennyiben
+                    útját nem tudja folytatni, ingyenes szállást, továbbutazást vagy bérautót biztosít tagjainak.
+                    Letölhető táblázatunk segítségével össze tudja hasonlítani a szolgáltatást. Magyarországra illetve
+                    más európai országokba gyakran utazóknak mindenképpen az ADAC Plus vagy az ADAC Premium
+                    szolgáltatást javasoljuk.
+                    Azon Ügyfeleinknek akik rajtunk keresztül kötnek szerződést, munkanapokon ideiglenes kártyát tudunk
+                    küldeni, így tagságuk az adatok elküldését követő nap nulla órától érvényes, a szolgáltatásokat
+                    igénybe tudják venni.
+                    A megadott IBAN számról, az ADAC 14 napon belül vonja le a tagsági díjat és postán küldi a névre
+                    szóló plasztik kártyát.
+                </p>
+
+                <ul>
+                    <li>
+                        <i class="fa fa-angle-right"></i>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-angle-right"></i>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </li>
+                </ul>
+
+                <select>
+                    <option value="volvo">Tagsági csomagok</option>
+                    <option value="saab">Pannenhilfe</option>
+                    <option value="opel">Pannenhilfe Plus</option>
+                    <option value="audi">Pannenhilfe Premium</option>
+                </select>
+
+                <a href="">Add to Cart</a>
+                <span>$190</span>
+            </div>
+        </div>
+
+        <div class="myslides">
+            <h2>
+                Adac <br> Adac adac <br>
+                <span>Adac</span>
+            </h2>
+            <img src="image/slider-3-.png" class="p_img" alt="">
+            <div class="p_detail">
+                <h3>Adac
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star"></i>
+                </h3>
+                <h4>Lorem ipsum dolor</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ducimus.</p>
+
+                <ul>
+                    <li>
+                        <i class="fa fa-angle-right"></i>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-angle-right"></i>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </li>
+                </ul>
+
+                <select>
+                    <option value="volvo">Tagsági csomagok</option>
+                    <option value="saab">Pannenhilfe</option>
+                    <option value="opel">Pannenhilfe Plus</option>
+                    <option value="audi">Pannenhilfe Premium</option>
+                </select>
+
+                <a href="">Add to Cart</a>
+                <span>$190</span>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <section class="service_section" id="second">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4 class="dark wow slideInDown" data-wow-duration="2s">SZOLGÁLTATÁSAINK</h4>
+                    <h2 class="sec_title wow bounceInLeft" data-wow-duration="2.2s">LEGYEN ADAC TAG!<br></h2>
+                    <br>
+                    <p class="color_aaa">
+                        Szerződött partnerként, ADAC Pannenhilfe tagságát – akár online – elkészítjük Önnek, valamint
+                        további kérdéseire is szívesen válaszolunk. Ezen kívűl intézheti rajtunk keresztül
+                        adatmódosítását magyar nyelven, kiterjesztheti védelmét az ADAC Plus tagságra vagy akár az ADAC
+                        Premium tagságra.
+                        Fontos, hogy a tagság személyhez kötött és nem gépjárműhöz, tehát bármely autóval lerobbanhat,
+                        az ADAC akkor is segít.
+                        Tagság szempontjából több különböző típust kínál számos szolgáltatással, annak érdekében, hogy
+                        megválaszthassa az Önnek és az életének megfelelő védelmet. Az ADAC éjjel-nappal, az élet minden
+                        pillanatában elérhető Németországban, Európában, vagy a világ bármely országában.
+                        Műszaki meghibásodás, vagy baleset esetén, szervízbe, lakcímre szállítják a gépjárművet.
+                        Amennyiben útját nem tudja folytatni, ingyenes szállást, továbbutazást vagy bérautót biztosít
+                        tagjainak.
+                        Letölhető táblázatunk segítségével össze tudja hasonlítani a szolgáltatást. Magyarországra
+                        illetve más európai országokba gyakran utazóknak mindenképpen az ADAC Plus vagy az ADAC Premium
+                        szolgáltatást javasoljuk.
+                        Azon Ügyfeleinknek akik rajtunk keresztül kötnek szerződést, munkanapokon ideiglenes kártyát
+                        tudunk küldeni, így tagságuk az adatok elküldését követő nap nulla órától érvényes, a
+                        szolgáltatásokat igénybe tudják venni.
+                        A megadott IBAN számról, az ADAC 14 napon belül vonja le a tagsági díjat és postán küldi a névre
+                        szóló plasztik kártyát.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row custom_column wow slideInRight" data-wow-duration="2.5s">
+                <div class="col-lg-3 col-sm-4 col-md-3">
+                    <a href="#" class="box text-center">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa fa-check-square-o"></i>
+                                <h3>Piacvetető autóklub</h3>
+                            </div>
+
+                            <div class="back">
+                                <i class="fa fa-check-square-o"></i>
+                                <h3>A tagok számában</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-md-3">
+                    <a href="#" class="box text-center">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa fa-clock-o"></i>
+                                <h3>24 / 7<br> 0 - 24</h3>
+                            </div>
+
+                            <div class="back">
+                                <i class="fa fa-clock-o"></i>
+                                <h3>NON-STOP segítség</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-md-3">
+                    <a href="#" class="box text-center">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa fa-diamond"></i>
+                                <h3>Prémium tagság</h3>
+                            </div>
+
+                            <div class="back">
+                                <i class="fa fa-diamond"></i>
+                                <h3>Széleskörű szolgáltatás</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-md-3">
+                    <a href="#" class="box text-center">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa fa-globe"></i>
+                                <h3>Világszerte elérhető</h3>
+                            </div>
+
+                            <div class="back">
+                                <i class="fa fa-globe"></i>
+                                <h3>Bárhol is járjon</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-4 col-md-3">
+                    <a href="#" class="box text-center">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa fa-podcast"></i>
+                                <h3>Online ügyintézés</h3>
+                            </div>
+
+                            <div class="back">
+                                <i class="fa fa-podcast"></i>
+                                <h3>Online <br>fizetés</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <div class="tabs" id="third">
+        <div class="container wow slideInUp ">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">DÍJAK ÉS TARIFÁK</h2>
+                    <br>
+                    <div class="p-heading p-large">
+                        ADAC Plus tagság már 94€, míg az ADAC Pannenhilfe Premium 139€ éves díj ellenében igénybe
+                        vehető. Fontos, hogy egyedülállóként, párként, vagy az egész családra kíván szerződést kötni.
+                        Egy vagy több 18 éven aluli gyerek biztosítása ingyenes. ADAC Pannenhilfe tagsági díjakról
+                        részletes tájékoztatást itt talál.
+                        Amennyiben ADAC taggá szeretne válni, kérjük töltse ki az adatlapot, munkatársaink szívesen
+                        elkészítik tagságát.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1">
+                            <i class="fa fa-cog"></i>
+                            ADAC PREMIUM TAGSÁG
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2">
+                            <i class="fa fa-binoculars"></i>
+                            ADAC PLUS TAGSÁG
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3">
+                            <i class="fa fa-search"></i>
+                            ADAC TAGSÁG
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3">
+                            <i class="fa fa-search"></i>
+                            ADAC TAGSÁG - 23 ÉVES KORIG
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tab-1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card left-pane first">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h5 class="card-title font-weight-bold">Szállítás az Ön által választott
+                                                    műhelybe</h5>
+                                                <p class="text-justify">
+                                                    Akár meghibásodás, akár baleset esetén a vontatójárműveink egész
+                                                    éjjel-nappal az Ön szolgálatában állnak.
+                                                    Prémium tagként nem csak a legközelebbi megfelelő műhelybe
+                                                    szállítjuk, hanem a választott műhelybe is.
+                                                    100 kilométer távolságig.
+                                                </p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fa fa-diamond"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Világszerte igénybe vehető szolgáltatás</h4>
+                                                <p class="text-justify">
+                                                    Ha lehetséges, helyszíni segítséget szervezünk a prémium tagok
+                                                    számára Európán kívül. Legfeljebb 300 €
+                                                    költségig mind a sérülésekkel, mind a vontatással kapcsolatban,
+                                                    illetve a jármű helyreállításával kapcsolatban.
+                                                </p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fa fa-check-square-o"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Egészségbiztosítás világszerte</h4>
+                                                <p class="text-justify">Prémium tagként világszerte védelmet élvez
+                                                    minden külföldi utazás alkalmával a prémium tagok
+                                                    csoportbiztosításának részeként. Fedezi a járóbeteg-ellátás és a
+                                                    kórházi tartózkodás költségeit, valamint
+                                                    ha ez orvosi szempontból indokolt, a hazautazás költségeit.
+                                                </p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fa fa-clock-o"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4" style="color:#ffcb00; margin-top: 0px;">
+                                    <h2 class="text-center">139 Euro / Év-től</h2><br><br>
+                                    <h4 class="text-justify">Az ADAC Premium tagság - a mindenre kiterjedő védelem
+                                        Segítségnyújtás Németországban,
+                                        Európában és világszerte kiegészítő és kibővített szolgáltatásokkal.<br><br>
+                                        Első osztályú szolgáltatás mindenkinek, aki szeretné élvezni az exkluzív
+                                        védelmet.
+                                        Az ADAC Premium tagság pontosan azt a védelmet nyújtja, amelyre szüksége van a
+                                        mai globalizált világban, és ugyanakkor azt
+                                        a kényelmet, amelyet már megszokhatott. Az ADAC Premium tagságával az ADAC Plus
+                                        tagság szolgáltatásai mellett egyéb kiváló
+                                        szolgáltatásokkal és értékes prémium védelemmel biztosíthatja magát, amely
+                                        maximális biztonságot és kizárólagos előnyöket kínál
+                                        mindenütt.</h4><br><br><br>
+                                    <h4>ADAC PREMIUM TAGSÁG DÍJA</h4><br>
+                                    <p class="text-justify">ADAC Pannenhilfe Premium tagság már 139€ éves díj ellenében
+                                        igénybe vehető. Fontos, hogy egyedülállóként, párként, vagy
+                                        az egész családra kíván szerződést kötni. Egy vagy több 18 éven aluli gyerek
+                                        biztosítása ingyenes.
+                                    </p><br>
+
+                                    <table>
+                                        <tr>
+                                            <th>Egy fő biztosított</th>
+                                            <th>139 Euro / Év</th>
+                                        </tr>
+                                        <tr>
+                                            <th>+ Partner</th>
+                                            <th>+50 Euro / Év</th>
+                                        </tr>
+                                        <tr style="color: darkgray; ">
+                                            <th>+ Gyermek (18 és 23 év között)</th>
+                                            <th>+50 Euro / Év</th>
+                                        </tr>
+                                        <tr>
+                                            <th>+ gyermek 18 éves korig</th>
+                                            <th>+50 Euro / Év</th>
+                                        </tr>
+                                    </table><br>
+
+                                    <p class="text-justify" style="font-size: 12px;">Három hozzájárulásra kötelezett
+                                        személytől (Ön személyesen + partner / 18-23 éves gyermek) a hozzájárulás nem
+                                        növekszik tovább.</p>
+                                    <br><br>
+                                    <p>Amennyiben ADAC Premium taggá szeretne válni, kérjük töltse ki az adatlapot,
+                                        munkatársaink szívesen elkészítik tagságát.</p>
+                                    <br><br>
+                                    <div class="text-center">
+                                        <a href="#details-lightbox-1" class="btn-solid-reg anim">Adac Prémium tagság
+                                            igénylés</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="card right-pane first">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Segítség válsághelyzet és természeti katasztrófák
+                                                    esetén is</h4>
+                                                <p class="text-justify">
+                                                    Amennyiben váratlan katasztrófa vagy válság történik vakáció vagy az
+                                                    utazás esetén ha lehetséges,
+                                                    segít visszatérni Németországba. Ha Ön saját maga szervezi meg a
+                                                    hazautazást, 5.000,- € összegig fedezi a
+                                                    költségeket.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fa fa-bookmark"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Rossz időjárás esetén fedezi a szállás- és
+                                                    utazási költségeket</h4>
+                                                <p class="text-justify">
+                                                    Amennyiben az Ön továbbutazása már nem lehetséges a rossz időjárási
+                                                    viszonyok miatt a kiválasztott módon,
+                                                    akkor sincs probléma. Szállás- és utazási költségeit egy másik
+                                                    közlekedési eszközzel fedezi, legfeljebb
+                                                    200 €-ig.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fa fa-podcast"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title"> Segítség súlyos, maradandó sérülés esetén</h4>
+                                                <p class="text-justify">
+                                                    Súlyos, maradandó sérülésekkel járó baleset után, pl. vakság esetén
+                                                    azonnali segítség, akár 10.000,-€-t is.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4" style="color:#ffcb00;">
+                                    <h2>94 Euro / Év-től</h2><br><br>
+                                    <h4 class="text-justify">Az ADAC Pannenhilfe Plus, átfogó szolgáltatásokat kínál.
+                                        Ideális azok számára, akik nagyobb védelmet szeretnének,
+                                        szeretnek utazni és értékeli az átfogó védelmet. Az ADAC Plus tagsággal
+                                        élvezheti az ADAC tagság szolgáltatásait,
+                                        és értékes kiegészítő szolgáltatásokat biztosít Európa-szerte (néha akár
+                                        világszerte is). </h4><br>
+                                    <h4>ADAC pannenhilfe plus tagság további fontos szolgáltatásai:</h4><br>
+                                    <h5>Gyógyszerek és szemüvegek külföldre szállítása</h5><br>
+                                    <p class="text-justify">Külföldi utazásakor (Európában és világszerte) olyan fontos
+                                        vényköteles gyógyszerekre van szüksége, amelyeket nem lehet
+                                        a helyszínen beszerezni, esetleg a szemüvege vagy a kontaktlencséje megsérült
+                                        vagy elveszett, vállalja a nem elérhető
+                                        gyógyszerek vagy csereüvegek beszerzését *, a lehető leggyorsabb, szállítást a
+                                        legközelebbi repülőtérre. * A gyógyszerek
+                                        és a csereüvegek költségeit nem fedezik.
+                                    </p><br>
+                                    <h5>Tolmács szolgálat külföldön</h5><br>
+                                    <p class="text-justify">Ön sürgősségi helyzetben van külföldön, és nyelvi nehézségei
+                                        vannak a hatóságokkal vagy a helyi
+                                        orvosokkal, az ADAC segítséget nyújt egy hivatalosan elismert tolmács
+                                        közvetítésében és vállalja a költségeket 200€ – ig.
+                                    </p><br>
+                                    <h5>Beteglátogatás</h5><br>
+                                    <p class="text-justify">Önnek, utazása alatt (Németországban, Európában és
+                                        világszerte) több mint két hétig a kórházban
+                                        kell maradnia, és egy közeli hozzátartozó szeretné meglátogatni, a közeli
+                                        hozzátartozó beteglátogatásának utazási és
+                                        szállásköltségeit átvállalja 1000 € -ig.
+                                    </p><br>
+                                    <h5>Segítség az elveszett, törött vagy autóba zárt kulcsoknál</h5><br>
+                                    <p class="text-justify">Németországban és Európában segítséget nyújt a pótkulcs
+                                        megszerzésében és vállalja az ebből
+                                        eredő költségeket vállalása 120 € -ig. (a cserekulcs költségeit nem kell téríti)
+                                    </p>
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="text-area">
+                                        <h3>SEGÍTSÉGNYÚJTÁS NÉMETORSZÁGBAN, EURÓPÁBAN ÉS VILÁGSZERTE</h3>
+                                        <br><br>
+                                        <p>
+                                            Az ADAC Pannenhilfe Plus, átfogó szolgáltatásokat kínál. Ideális azok
+                                            számára, akik nagyobb védelmet szeretnének,
+                                            szeretnek utazni és értékeli az átfogó védelmet. Az ADAC Plus tagsággal
+                                            élvezheti az ADAC tagság szolgáltatásait,
+                                            és értékes kiegészítő szolgáltatásokat biztosít Európa-szerte (néha akár
+                                            világszerte is).
+                                        </p>
+                                    </div>
+                                    <br><br>
+                                    <div class="icon-cards-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-cube"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Segítségnyújtás Európában meghibásodás vagy
+                                                    baleset esetén</h4>
+                                                <p class="text-justify">
+                                                    Az ADAC szorosan együttműködik a vezető európai autóklubokkal.
+                                                    Ezért, utazása alkalmával, mindig támaszkodhat
+                                                    partnerklubjai kompetens segítségére. Meghibásodott vagy balesetet
+                                                    szenvedett járműve Európában, és ha az
+                                                    azonnali javítás nem lehetséges megszervezik Önnek a jármű
+                                                    visszaszállítását lakóhelyére és viselik az összes
+                                                    költséget. Ezen kívül biztosítják az Ön továbbutazását.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-bookmark"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Gondoskodak az Ön hazaszállításáról</h4>
+                                                <p class="text-justify">
+                                                    Utazása során egy akut, váratlan betegség vagy súlyos sérülés
+                                                    esetén, amennyiben szükséges, visszahozzák a
+                                                    kórházba A visszaszállítás teljes szervezését és végrehajtását
+                                                    átveszik, ha ez orvosi szempontból ésszerű és
+                                                    indokolt. Orvosi szakemberek fogják kísérni.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Védelmet biztosít utazásai során</h4>
+                                                <p class="text-justify">
+                                                    Szabadsága alatt a családjában vagy otthonában vészhelyzet van, és
+                                                    azonnal haza kell utaznia, ADAC Plus tagság esetén az
+                                                    ADAC átvállalja az utazási és szállás költségeit, valamint
+                                                    megszervezi a jármű hazahozatalát, amennyiben Európában
+                                                    tartózkodik.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hazaszállítja gyermekeit</h4>
+                                                <p class="text-justify">
+                                                    Amennyiben az utazása során betegség vagy sérülés miatt már nem tud
+                                                    gondoskodni a 16 év alatti gyermekeiről és
+                                                    a többi utazó vagy a házastársa szintén nem érhető el, gondoskodnak
+                                                    arról, hogy a gyermeke(ke)t az ADAC által
+                                                    biztosított kísérő személy hozza vissza lakóhelyükre vagy a fogadó
+                                                    személy lakóhelyére, és viseli a költségeket.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Megtéríti utazási költségeit</h4>
+                                                <p class="text-justify">
+                                                    A jármű meghibásodás vagy baleset következtében lerobbant, és nem
+                                                    volt vezethető másnap sem? Esetleg ellopták a
+                                                    járművet? Segítséget nyújt egy bérleti díj mentes ADAC Clubmobil-al,
+                                                    az autóbérlés megszervezésében a
+                                                    közvetlen hazautazáshoz. Amennyiben legalább 1200 km távolságra
+                                                    tartózkodik otthonától lehetséges az
+                                                    1. osztályú vonatjegy vagy repülési költségek megtérítése.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">ADAC Plus Jogi segítségnyújtást kínál külföldön
+                                                </h4>
+                                                <p class="text-justify">
+                                                    Amennyiben jogi segítségre van szüksége egy külföldi autóbaleset
+                                                    után, Ön akkor is számíthat az ADAC-ra. Klub
+                                                    ügyvéd vagy az ADAC által közvetített ügyvéd támogatja Önt a
+                                                    követelések kezelésében.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <br><br>
+                                    <div class="icon-cards-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem Ipsum is simply dummy text of the printing
+                                                </h4>
+                                                <p class="text-justify">
+                                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                                    ever since the 1500s,
+                                                    when an unknown printer took a galley of type and scrambled it to
+                                                    make a type specimen book. It has
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-file"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem Ipsum is simply dummy text of the printing
+                                                </h4>
+                                                <p class="text-justify">
+                                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                                    ever since the 1500s,
+                                                    when an unknown printer took a galley of type and scrambled it to
+                                                    make a type specimen book. It has
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-cube"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem Ipsum is simply dummy text of the printing
+                                                </h4>
+                                                <p class="text-justify">
+                                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                                    ever since the 1500s,
+                                                    when an unknown printer took a galley of type and scrambled it to
+                                                    make a type specimen book. It has
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fa fa-bookmark"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem Ipsum is simply dummy text of the printing
+                                                </h4>
+                                                <p class="text-justify">
+                                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                                    ever since the 1500s,
+                                                    when an unknown printer took a galley of type and scrambled it to
+                                                    make a type specimen book. It has
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-area">
+                                        <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                                        <p class="text-justify">
+                                            industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                            the 1500s,
+                                            when an unknown printer took a galley of type and scrambled it to make a
+                                            type specimen book. It has
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" style="color:#ffcb00;">
+                                    <h2 class="text-center">54 Euro / Év-től</h2><br><br>
+                                    <h4 class="text-justify">industry. Lorem Ipsum has been the industry's standard
+                                        dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book.
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book.
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book.
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book.
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="parallax-setting" id="para">
+        <div class="container">
+            <div class="row wow fadeInLeft">
+                <div class="col-lg-12 text-left">
+                    <br>
+                    <h2>Szerződési feltételek német nyelven</h2>
+                    <br><br><br>
+                    <a href="https://www.google.com">Widerrufsrecht</a><br>
+                    <a href="https://www.google.com">Leistungsordnung des ADAC e.V.</a><br>
+                    <a href="https://www.google.com">Bedingungen für ADAC Plus-Mitglieder</a><br>
+                    <a href="https://www.google.com">Bedingungen für ADAC Premium-Mitglieder</a><br>
+                    <a href="https://www.google.com">ADAC Pannen- und Unfallhilfe für ADAC Mitglieder</a><br>
+                    <a href="https://www.google.com">Leistungsordnung des ADAC e.V. (mit zusätzlichen Leistungen für
+                        ADAC Premium-Mitglieder)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="details" class="basic-2"><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 wow slideInLeft">
+                    <img src="image/looking-car.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-6 wow slideInRight">
+                    <div class="text-container">
+                        <h3>NEM TALÁLJA OLDALUNKON A MEGFELELŐ GÉPJÁRMŰVET?</h3>
+                        <br>
+                        <p>
+                            Adatbázisunkban több mint 40.000 darab autó szerepel. Kérjen ajánlatot! Rendelésre rövid
+                            időn belül teljesítjük!
+                        </p>
+                        <br><br>
+                        <a href="http://atriumautomobile.de/gepjarmu-beszerzes/" class="btn-solid-reg">Ajánlatkérés</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="basic-3" id="fifth">
+        <div class="second">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 wow slideInLeft">
+                        <div class="text-container">
+                            <h3>SZERETNÉ ELADNI AUTÓJÁT?</h3>
+                            <br>
+                            <p>
+                                Használt autók eladása még soha nem volt ilyen egyszerű, ezt az ügyfelek sok pozitív
+                                tapasztalata is megerősíti.
+                                Atrium Automobile - Az Ön megbízható autókereskedő partnere Németországban!
+                            </p><br>
+                            <a href="http://atriumautomobile.de/autofelvasarlas/" class="btn-solid-reg">Érdekel</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow slideInRight">
+                        <img src="image/sell-car.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="details-lightbox-1" class="lightbox-basic zoom mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">X</button>
+            <div class="col-lg-12">
+                <h3>Csomag konfigurátor</h3>
+                <hr>
+
+                <form>
+                    <div class="checkboxes-and-radios">
+                        <input type="radio" name="radio-cats" name="tab" id="radio-4" value="igotnone" value="1"
+                            onclick="show2();show4();">
+                        <label for="radio-4">Új szerződés kötése</label>
+                        <input type="radio" name="radio-cats" name="tab" id="radio-5" value="igottwo" value="2"
+                            onclick="show1();show3();">
+                        <label for="radio-5" style="color: rgb(117, 117, 117);">Meglévő szerződés módosítása</label>
+                    </div>
+
+                    <!--
+                        <input type="radio" name="tab" value="igotnone" onclick="show2();show4();">Új szerződés
+                        <input type="radio" name="tab" value="igottwo" onclick="show1();show3();">Módosítás
+                        -->
+
+                    <!-- MÓDOSÍTÁS -->
+                    <div id="div2" class="hide" style="color: rgb(117, 117, 117);">
+                        <input type="checkbox" name="radio4" onclick="Show_Div('#Div_11')" class="cb1">Partner - 25€
+                        <input type="checkbox" name="radio5" onclick="Show_Div('#Div_12')" class="cb1">Gyermek (18 év
+                        alatt) - 0€
+                        <input type="checkbox" name="radio6" onclick="Show_Div('#Div_13')" class="cb1">Gyermek (18-23
+                        évig) - 25€
+
+                        <div class="flex-container">
+                            <div class="box">
+                                <p>Meglévő főbiztosított <br> tagsági száma*</p>
+                                <input type="text">
+                                <br><br>
+                            </div>
+                            <div class="box">
+                                <p>Meglévő főbiztosított <br> email címe*</p>
+                                <input type="text">
+                                <br><br>
+                            </div>
+                            <div class="box">
+                                <p>Meglévő főbiztosított <br> telefonszáma*</p>
+                                <input type="date" name="" id="">
+                                <br><br>
+                            </div>
+                        </div>
+
+                        <div id="Div_11" style="display: none;">
+                            <p>Társbiztosított adatai</p>
+                            <div class="flex-container">
+                                <div class="box">
+                                    <p>Vezetéknév*</p>
+                                    <input type="text">
+                                </div>
+                                <div class="box">
+                                    <p>Keresztnév*</p>
+                                    <input type="text">
+                                </div>
+                                <div class="box">
+                                    <p>Születési dátum*</p>
+                                    <input type="date" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 1. gyermek -->
+
+                        <div id="Div_12" style="display: none;">
+                            <p>Gyermek (18 év alatt) - 0€</p>
+                            <div class="flex-container">
+                                <div class="box">
+                                    <p>Vezetéknév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Keresztnév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Születési dátum*</p>
+                                    <input type="date" name="" id="">
+                                    <br><br>
+                                </div>
+                            </div>
+                            <button name="toggle" id="toggle-5" onclick="myFunction7();Show_Div('#Div_8')">+</button>
+                            <!-- !!! -->
+                            <div id="Div_8" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <button name="toggle" id="toggle-6" onclick="myFunction8();Show_Div('#Div_4')">+</button>
+                            <!-- !!! -->
+                            <div id="Div_4" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 18 - 32 évig -->
+                        <div id="Div_13" style="display: none;">
+                            <p>Gyermek (18 - 23 évig) - 35€</p>
+                            <div class="flex-container">
+                                <div class="box">
+                                    <p>Vezetéknév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Keresztnév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Születési dátum*</p>
+                                    <input type="date" name="" id="">
+                                    <br><br>
+                                </div>
+                            </div>
+                            <button name="toggle" id="toggle-3" onclick="myFunction3();Show_Div('#Div_8')">+</button>
+                            <!-- !!! -->
+                            <div id="Div_8" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <button name="toggle" id="toggle-4" onclick="myFunction4();Show_Div('#Div_9')">+</button>
+                            <!-- !!! -->
+                            <div id="Div_9" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <input type="checkbox" name="" id="" requiredd>
+                        <p style="font-weight: bold;" id="output">Figyelem! Adatainak elküldésével megbízza az Atrium
+                            Automobile képviselőjét, hogy ADAC
+                            szerződött partnerként, a biztosításkötést megadott adatok alapján elvégezze. Elismeri, hogy
+                            a megadott adatok a valóságnak megfelelnek, feltételeket tudomásul vette, az adatvédelmi
+                            szabályzatot elolvasta és az ADAC szolgáltatásaival tisztában van. *
+                        </p>
+
+                        <button class="btn-solid-reg" type="submit">Beküld</button>
+                        <br><br>
+                    </div>
+                    <!-- / MÓDOSÍTÁS -->
+                    <!-- ÚJ SZERZŐDÉS -->
+                    <div id="div1" class="hide">
+                        <input type="checkbox" name="tabb" value="one_person"> 1 fő tagság - 94€
+                        <input type="checkbox" name="radio1" onclick="Show_Div('#Div_1')" class="cb1">Partner - 35€
+                        <input type="checkbox" name="radio2" onclick="Show_Div('#Div_2'); alertMaxPerson()"
+                            class="cb1">Gyermek (18 év alatt) - 0€
+                        <input type="checkbox" name="radio3" onclick="Show_Div('#Div_5'); alertMaxPerson()"
+                            class="cb1">Gyermek (18-23 évig) - 35€
+
+                        <p>Főbiztosított adatai</p>
+                        <div class="flex-container">
+                            <div class="box">
+                                <p>Teljes név*</p>
+                                <input type="text">
+                                <br><br>
+                            </div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                        </div>
+
+                        <div class="flex-container">
+                            <div class="box">
+                                <p>Irányítószám*</p>
+                                <input type="text">
+                                <p>Születési dátum*</p>
+                                <input type="date">
+                                <br>
+                                <br>
+                            </div>
+                            <div class="box">
+                                <p>Város*</p>
+                                <input type="text">
+                                <p>E-mail cím*</p>
+                                <input type="text">
+                                <br>
+                                <br>
+                            </div>
+                            <div class="box">
+                                <p>Utca, házszám*</p>
+                                <input type="text">
+                                <p>Telefonszám*</p>
+                                <input type="text">
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div id="Div_1" style="display: none;">
+                            <p>Társbiztosított adatai</p>
+                            <div class="flex-container">
+                                <div class="box">
+                                    <p>Vezetéknév*</p>
+                                    <input type="text">
+                                </div>
+                                <div class="box">
+                                    <p>Keresztnév*</p>
+                                    <input type="text">
+                                </div>
+                                <div class="box">
+                                    <p>Születési dátum*</p>
+                                    <input type="date" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 1. gyermek -->
+                        <div id="Div_2" style="display: none;">
+                            <p>Gyermek (18 év alatt) - 0€</p>
+                            <div class="flex-container">
+                                <div class="box">
+                                    <p>Vezetéknév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Keresztnév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Születési dátum*</p>
+                                    <input type="date" name="" id="">
+                                    <br><br>
+                                </div>
+                            </div>
+
+                            <button name="toggle" id="toggle" onclick="myFunction();Show_Div('#Div_3')">+</button>
+                            <div id="Div_3" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button name="toggle-2" id="toggle-2" onclick="myFunction2();Show_Div('#Div_4')">+</button>
+                            <div id="Div_4" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 18 - 32 évig -->
+                        <div id="Div_5" style="display: none;">
+                            <p>Gyermek (18 - 23 évig) - 35€</p>
+                            <div class="flex-container">
+                                <div class="box">
+                                    <p>Vezetéknév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Keresztnév*</p>
+                                    <input type="text">
+                                    <br><br>
+                                </div>
+                                <div class="box">
+                                    <p>Születési dátum*</p>
+                                    <input type="date" name="" id="">
+                                    <br><br>
+                                </div>
+                            </div>
+
+                            <button name="toggle" id="toggle-3" onclick="myFunction3();Show_Div('#Div_6')">+</button>
+                            <div id="Div_6" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button name="toggle" id="toggle-4" onclick="myFunction4();Show_Div('#Div_7')">+</button>
+                            <div id="Div_7" style="display: none;">
+                                <div class="flex-container">
+                                    <div class="box">
+                                        <p>Vezetéknév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Keresztnév*</p>
+                                        <input type="text">
+                                    </div>
+                                    <div class="box">
+                                        <p>Születési dátum</p>
+                                        <input type="date" name="" id="">
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- /18 - 23 évig--->
+                        <p>SEPA beszedési megbízás</p>
+                        <div class="flex-container">
+                            <div class="box">
+                                <p>Számlafizető neve*</p>
+                                <input type="text">
+                                <br><br>
+                            </div>
+                            <div class="box">
+                                <p>IBAN szám*</p>
+                                <input type="text">
+                                <br><br>
+                            </div>
+                            <div class="box">
+                                <p>BIC/Swift*</p>
+                                <input type="text">
+                                <br><br>
+                            </div>
+                        </div>
+                        <p>Számlához tartozó lakcím:</p>
+                        <div class="flex-container">
+                            <div class="box">
+                                <p>Irányítószám*</p>
+                                <input type="text">
+                            </div>
+                            <div class="box">
+                                <p>Város*</p>
+                                <input type="text">
+                            </div>
+                            <div class="box">
+                                <p>Utca, házszám*</p>
+                                <input type="text">
+                                <br><br>
+                            </div>
+                        </div>
+
+                        <input type="checkbox" name="" required>
+                        <p class="output">Felhatalmazom az ADAC e.V.-t, hogy beszedje a szerződéssel kapcsolatos díjat a
+                            megadott számlámról.
+                            Megjegyzés: A megterhelt összeg visszatérítését követelhetem, a terhelés dátumától számított
+                            nyolc héten belül.
+                            A bankommal megállapodott feltételek érvényesek. A SEPA beszedési megbízást bármikor,
+                            részben vagy egészben indoklás nélkül,
+                            visszavonhatom. *
+                        </p>
+                        <input type="checkbox" name="" requiredd>
+                        <p class="output">Figyelem! Adatainak elküldésével megbízza az Atrium Automobile képviselőjét,
+                            hogy ADAC
+                            szerződött partnerként, a biztosításkötést megadott adatok alapján elvégezze. Elismeri, hogy
+                            a megadott adatok a valóságnak megfelelnek, feltételeket tudomásul vette, az adatvédelmi
+                            szabályzatot elolvasta és az ADAC szolgáltatásaival tisztában van. *
+                        </p>
+
+                        <button class="btn-solid-reg" type="submit">Beküld</button>
+                        <br />
+                        <br />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="details-lightbox-2" class="lightbox-basic zoom mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">X</button>
+            <div class="col-lg-6">
+                <img src="image/details-lightbox-2.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6">
+                <h3>Calendar Input</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus blanditiis laborum dolor
+                    minus, maiores ducimus reiciendis odit consequuntur, sed neque.</p>
+                <h4>User Feedback</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam eum assumenda modi voluptatem dolor
+                    sint. Dignissimos architecto velit, commodi vero.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aliquam, impedit accusantium?</p>
+
+                <table>
+                    <tr>
+                        <td class="icon-cell">
+                            <i class="fa fa-desktop"></i>
+                        </td>
+                        <td>Responsive Layout</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell">
+                            <i class="fa fa-bullhorn"></i>
+                        </td>
+                        <td>Distinctive Cts</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell">
+                            <i class="fa fa-image"></i>
+                        </td>
+                        <td>Image Gallery Slider</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell">
+                            <i class="fa fa-envelope"></i>
+                        </td>
+                        <td>Contact Forms</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell">
+                            <i class="fa fa-flag"></i>
+                        </td>
+                        <td>FontAwesome Icons</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell">
+                            <i class="fa fa-code"></i>
+                        </td>
+                        <td>Well-structured code</td>
+                    </tr>
+                </table>
+                <a href="" class="btn-solid-reg">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer theme-bg-primary wow rollIn" id="foot">
+        <div class="container py-5 mb-3 col-md-offset-2">
+            <div class="row" style="margin-left: 50px;">
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">Kapcsolat</h4>
+                    <p>Szívesen vesszük megkeresését elérhetőségeinken, ahol munkatársaink készséggel állnak
+                        rendelkezésére.</p><br>
+                    <ul>
+                        <li>
+                            <p>87640 Biessenhofen, Füssener 52.</p>
+                        </li>
+                        <li>
+                            <p>+49 174 961 0376</p>
+                        </li>
+                        <li><a href="">info@atriumautomobile.de</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">Hasznos linkek</h4>
+                    <ul>
+                        <li><a href="">Gépjárművek Amerikából</a></li>
+                        <li><a href="">Autós ügyek, információk</a></li>
+                        <li><a href="">Zulassungsstelle lakhely szerint</a></li>
+                        <li><a href="">KFZ steuer kalkulátor</a></li>
+                        <li><a href=""> ADAC Pannenhilfe App</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">Legutóbbi bejegyzések</h4>
+                    <ul>
+                        <li><a href="">Közlekedés érvényes műszaki nélkül</a>
+                            <p>20/03/2020</p>
+                        </li>
+                        <li><a href="">Németországi autó nyilvántartásba vétele</a>
+                            <p>16/03/2020</p>
+                        </li>
+                        <li><a href="">Változások az ADAC Pannenhilfe tagságban</a>
+                            <p>27/02/2020</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">Hírlevél feliratkozás</h4>
+                    <ul class="social-list">
+                        <li class="list-inline-item"><a href=""><i class="fa fa-instagram fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-facebook fa-fw"></i></a></li>
+                    </ul>
+
+                    <div class="mb-2">
+                        <p>Értesüljön elsőként hírekről, akciókról, újdonságokról. Írja be e-mail címét, és iratkozzon
+                            fel hírlevelünkre.</p>
+                    </div>
+                    <div>
+                        <form action="news-letter.php">
+                            <input type="text" id="email" name="email" placeholder="Az Ön email címe">
+                            <input type="text" id="name" name="name" placeholder="Az Ön neve">
+                            <input type="text" id="irszam" name="irszam" placeholder="Az Ön irányítószáma">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr>
+        </div>
+
+        <div class="f">
+            <div class="container text-center">
+                <h3 class="mb-3">GET THE APP</h3>
+                <div class="section-intro mb-4 mx-auto">
+                    Download our apps now. lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo
+                    ligula eget dolor.
+                    <br>Aenean massa. Cum sociis natoque penatibus et magnis dis.
+                </div>
+
+                <ul class="d-inline-block">
+                    <li class="list-inline-item mr-3">
+                        <a href="">
+                            <img class="ios" src="image/appstore-android.svg" alt="">
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="">
+                            <img class="android" src="image/appstore-apple.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <div class="footer-bottom text-center pb-5">
+            <small class="copyright">
+                <p>© 2015 Atrium Automobile - All rights reserved.</p>
+                <p>Designed with</p>
+                <i class="fa fa-heart" style="color: red;"></i>
+                <p>by</p>
+                <a href="">Benedek76</a>
+            </small>
+        </div>
+    </footer>
+
+    <a href="#" id="back2Top" title="Back To Top" class="smooth-scroll">&#10148;</a>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <script src="js/flipster-custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        function show1() {
+            document.getElementById('div1').style.display = 'none';
+        }
+        function show2() {
+            document.getElementById('div1').style.display = 'block';
+        }
+    </script>
+
+    <script>
+        (function ($) {
+            "use strict";
+            $('.anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                perloader: false,
+                midCLick: true,
+                removeDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        })(jQuery);          
+    </script>
+
+    <script>
+        $(window).scroll(function () {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('#back2Top').fadeIn();
+            }
+            else {
+                $('#back2Top').fadeOut();
+            }
+        });
+
+        $(document).ready(function () {
+            $("#back2Top").click(function (event) {
+                event.preventDefault();
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('a.smooth-scroll').click(function (event) {
+                event.preventDefault();
+                var section = $(this).attr("href");
+
+                $('html,body').animate({
+                    scrollTop: $(section).offset().top - 64
+                }, 1250, "easeInOutExpo");
+            });
+        });   
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
