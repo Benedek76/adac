@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hide {
+  display: none;
+  /*width: 50%;*/
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fafafa;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBluee;
+}
+
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 33%;
+  margin: 10px;
+  padding-left: 10px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.box input {
+  border-radius: 8px;
+  border: 1px solid white;
+  border-left: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  width: 95%;
+  height: 2rem;
+  font-size: 18px;
+  color: darkgrey;
+}
+.output{
+  text-align: justify;
+}
+
